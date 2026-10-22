@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SAZÓN ARTESANA, comida casera y sabores salvadoreños.">
+  <meta name="theme-color" content="#7A2E1D">
+  <title>SAZÓN ARTESANA | Comida casera</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body id="top">
+
+<nav class="navbar navbar-expand-lg navbar-sazon sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <span class="logo-icon"><i class="bi bi-fire"></i></span>
+      <span>
+        <strong>SAZÓN ARTESANA</strong>
+        <small class="logo-subtitle d-block">Tradición en cada bocado</small>
+      </span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+      aria-expanded="false" aria-label="Abrir navegación">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuPrincipal">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Nuestro menú</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Pedidos</a></li>
+        <li class="nav-item ms-lg-2">
+          <button class="btn btn-theme" id="themeToggle" type="button"
+            aria-label="Cambiar tema" title="Cambiar tema">
+            <i class="bi bi-moon-stars-fill"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero-comida">
+  <div class="hero-overlay"></div>
+  <div class="container hero-container">
+    <div class="row align-items-center min-vh-75">
+      <div class="col-lg-8 col-xl-7 hero-content">
+        <span class="hero-etiqueta">
+          <i class="bi bi-flower1 me-2"></i>
+          Sabor salvadoreño
+        </span>
+
+        <h1>Comida rica, <span>como hecha en casa.</span></h1>
+
+        <p class="hero-description">
+          En SAZÓN ARTESANA encontrarás platillos inspirados en nuestra
+          cocina salvadoreña, desde unas pupusas hasta un almuerzo completo.
+          ¡Mira el menú y elige lo que más se te antoje!
+        </p>
+
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a class="btn btn-sazon btn-lg" href="#menu">
+            Ver menú <i class="bi bi-arrow-right ms-2"></i>
+          </a>
+          <a class="btn btn-outline-light btn-lg" href="#nosotros">Conócenos</a>
+        </div>
+
+        <div class="hero-benefits mt-5">
+          <div><i class="bi bi-heart-fill"></i><span>Sabor casero</span></div>
+          <div><i class="bi bi-egg-fried"></i><span>Comida para compartir</span></div>
+          <div><i class="bi bi-cup-hot-fill"></i><span>Algo rico para cada día</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="seccion-padding" id="nosotros">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="imagen-nosotros">
+          <img
+            src="imagenes/pupusas-queso.webp"
+            alt="Plato de comida casera" loading="lazy">
+          <div class="imagen-sello">
+            <i class="bi bi-heart-fill"></i>
+            <span>Hecho con</span>
+            <strong>cariño</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <span class="section-label">
+          <i class="bi bi-dash-lg"></i> Sobre nosotros
+        </span>
+        <h2 class="section-title">El gusto de comer <span>algo rico.</span></h2>
+
+        <p>
+          SAZÓN ARTESANA nace de la idea de compartir los sabores que
+          forman parte de nuestra vida. Nos gustan los platillos que
+          reúnen a la familia y que siempre se disfrutan mejor en buena compañía.
+        </p>
+
+        <p>
+          Nuestro menú tiene opciones para desayunar, almorzar, disfrutar
+          de un antojito o acompañar la tarde con una bebida y algo dulce.
+        </p>
+
+        <div class="feature-box">
+          <i class="bi bi-check-circle-fill"></i>
+          <div>
+            <h3>¿Qué nos gusta ofrecer?</h3>
+            <p>Comida variada, sabores conocidos y opciones para distintos gustos.</p>
+          </div>
+        </div>
+
+        <a class="enlace-sazon" href="#menu">
+          Echar un vistazo al menú <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion-padding" id="menu">
+  <div class="container">
+    <div class="row align-items-end mb-4">
+      <div class="col-lg-8">
+        <span class="section-label">Para cualquier antojo</span>
+        <h2 class="section-title mb-2">Nuestro menú</h2>
+        <p class="section-description">
+          Hay desayunos, platillos típicos, almuerzos, bebidas y postres.
+          ¿Qué se te antoja hoy?
+        </p>
+      </div>
+      <div class="col-lg-4 text-lg-end">
+        <span class="nota-menu">
+          <i class="bi bi-info-circle me-1"></i>
+          Precios de ejemplo
+        </span>
+      </div>
+    </div>
+
+    <div class="d-flex flex-wrap gap-2 mb-4 menu-filtros">
+      <button class="btn btn-sazon menu-filtro active" data-filtro="todos" type="button">Todo</button>
+      <button class="btn btn-outline-secondary menu-filtro" data-filtro="desayunos" type="button">Desayunos</button>
+      <button class="btn btn-outline-secondary menu-filtro" data-filtro="antojitos" type="button">Antojitos</button>
+      <button class="btn btn-outline-secondary menu-filtro" data-filtro="almuerzos" type="button">Almuerzos</button>
+      <button class="btn btn-outline-secondary menu-filtro" data-filtro="bebidas" type="button">Bebidas</button>
+      <button class="btn btn-outline-secondary menu-filtro" data-filtro="postres" type="button">Postres</button>
+    </div>
+
+    <div class="row g-4" id="listaMenu">
+
+      <!-- DESAYUNOS -->
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="desayunos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/desayuno-tipico.webp" alt="Desayuno típico" loading="lazy">
+            <span class="etiqueta-comida">$4.00</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">DESAYUNOS</span>
+            <h3>Desayuno típico</h3>
+            <p>Frijoles, huevo, plátano, queso y tortillas para comenzar el día.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Desayuno típico">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="desayunos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/desayuno-tipico.webp" alt="Huevos con frijoles" loading="lazy">
+            <span class="etiqueta-comida">$3.50</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">DESAYUNOS</span>
+            <h3>Huevos al gusto</h3>
+            <p>Huevos preparados al gusto, acompañados de frijoles y tortillas.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Huevos al gusto">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <!-- ANTOJITOS -->
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="antojitos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/pupusas-queso.webp" alt="Pupusas de queso" loading="lazy">
+            <span class="etiqueta-comida">$0.75 c/u</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">ANTOJITOS</span>
+            <h3>Pupusas de queso</h3>
+            <p>Calientitas, con queso derretido, curtido y salsa de tomate.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Pupusas de queso">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="antojitos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/pupusas-revueltas.webp" alt="Pupusas revueltas" loading="lazy">
+            <span class="etiqueta-comida">$0.75 c/u</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">ANTOJITOS</span>
+            <h3>Pupusas revueltas</h3>
+            <p>Con queso, frijoles y chicharrón. Se acompañan con curtido y salsa.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Pupusas revueltas">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="antojitos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/yuca-frita.webp" alt="Yuca frita" loading="lazy">
+            <span class="etiqueta-comida">$4.00</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">ANTOJITOS</span>
+            <h3>Yuca frita con chicharrón</h3>
+            <p>Yuca doradita con chicharrón, curtido y salsa de tomate.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Yuca frita con chicharrón">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="antojitos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/empanadas-platano.webp" alt="Empanadas" loading="lazy">
+            <span class="etiqueta-comida">$1.00 c/u</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">ANTOJITOS</span>
+            <h3>Empanadas de plátano</h3>
+            <p>Dulces empanadas rellenas de leche poleada, ideales para la tarde.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Empanadas de plátano">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="antojitos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/tamales-pollo.webp" alt="Tamales" loading="lazy">
+            <span class="etiqueta-comida">$1.25 c/u</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">ANTOJITOS</span>
+            <h3>Tamales de pollo</h3>
+            <p>Tamales de masa con pollo, una opción para el desayuno o la tarde.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Tamales de pollo">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <!-- ALMUERZOS -->
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="almuerzos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/tamales-pollo.webp" alt="Pollo guisado" loading="lazy">
+            <span class="etiqueta-comida">$5.00</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">ALMUERZOS</span>
+            <h3>Pollo guisado</h3>
+            <p>Pollo en salsa casera, servido con arroz, ensalada y tortillas.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Pollo guisado">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="almuerzos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/yuca-frita.webp" alt="Carne asada" loading="lazy">
+            <span class="etiqueta-comida">$6.00</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">ALMUERZOS</span>
+            <h3>Carne asada</h3>
+            <p>Carne asada con arroz, frijoles, ensalada y tortillas.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Carne asada">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="almuerzos">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/pupusas-revueltas.webp" alt="Casamiento con huevo" loading="lazy">
+            <span class="etiqueta-comida">$3.50</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">ALMUERZOS</span>
+            <h3>Casamiento con huevo</h3>
+            <p>Arroz con frijoles, huevo, plátano y tortillas.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Casamiento con huevo">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <!-- BEBIDAS -->
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="bebidas">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/horchata.jpg" alt="Horchata fría" loading="lazy">
+            <span class="etiqueta-comida">$1.50</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">BEBIDAS</span>
+            <h3>Horchata</h3>
+            <p>Bebida fría de arroz y especias, servida bien fresca.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Horchata">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="bebidas">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/horchata.jpg" alt="Café de la casa" loading="lazy">
+            <span class="etiqueta-comida">$1.00</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">BEBIDAS</span>
+            <h3>Café de la casa</h3>
+            <p>Una taza de café para acompañar el desayuno o algo dulce.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Café de la casa">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="bebidas">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/limonada.webp" alt="Limonada" loading="lazy">
+            <span class="etiqueta-comida">$1.25</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">BEBIDAS</span>
+            <h3>Limonada</h3>
+            <p>Limonada fría para acompañar tus comidas.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Limonada">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <!-- POSTRES -->
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="postres">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/quesadilla-salvadorena.webp" alt="Quesadilla salvadoreña" loading="lazy">
+            <span class="etiqueta-comida">$2.00</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">POSTRES</span>
+            <h3>Quesadilla salvadoreña</h3>
+            <p>Pan dulce de queso, rico para acompañar con una taza de café.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Quesadilla salvadoreña">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4 menu-item" data-categoria="postres">
+        <article class="tarjeta-comida h-100">
+          <div class="imagen-platillo">
+            <img src="imagenes/quesadilla-salvadorena.webp" alt="Postre dulce" loading="lazy">
+            <span class="etiqueta-comida">$2.50</span>
+          </div>
+          <div class="contenido-platillo">
+            <span class="categoria-platillo">POSTRES</span>
+            <h3>Postre de la casa</h3>
+            <p>Algo dulce para terminar la comida o disfrutar por la tarde.</p>
+            <a class="enlace-sazon" href="#contacto" data-producto="Postre de la casa">Pedir información <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="seccion-contacto" id="contacto">
+  <div class="container text-center">
+    <span class="section-label texto-dorado">SAZÓN ARTESANA</span>
+    <h2>¿Qué te gustaría pedir?</h2>
+    <p>Déjanos tus datos y cuéntanos qué platillo te interesa.</p>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-8 col-xl-7">
+        <form class="card border-0 shadow p-4 p-md-5 text-start formulario-pedido"
+          id="formPeticion">
+          <h3 class="h4 mb-2">Datos del pedido</h3>
+          <p class="mb-4">Completa los campos para consultar tu pedido.</p>
+
+          <div class="mb-3">
+            <label class="form-label" for="nombrePeticion">Nombre completo</label>
+            <input class="form-control" id="nombrePeticion" name="nombre"
+              autocomplete="name" maxlength="100" placeholder="Escribe tu nombre"
+              required type="text">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="correoPeticion">Correo electrónico</label>
+            <input class="form-control" id="correoPeticion" name="correo"
+              autocomplete="email" maxlength="160" placeholder="nombre@correo.com"
+              required type="email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="mensajePeticion">Producto o pedido</label>
+            <textarea class="form-control" id="mensajePeticion" name="peticion"
+              maxlength="1500" placeholder="Escribe qué te gustaría pedir..."
+              required rows="4"></textarea>
+          </div>
+
+          <div class="campo-oculto" aria-hidden="true">
+            <label for="sitioWeb">No completar este campo</label>
+            <input id="sitioWeb" name="sitioWeb" tabindex="-1" autocomplete="off">
+          </div>
+
+          <button class="btn btn-dorado btn-lg" id="enviarPeticion" type="submit">
+            <i class="bi bi-send me-2"></i>Enviar pedido
+          </button>
+          <p aria-live="polite" class="mt-3 mb-0" id="estadoPeticion" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion-padding" id="ubicacion">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label"><i class="bi bi-geo-alt-fill"></i> Nuestra ubicación</span>
+      <h2 class="section-title">¿Dónde estamos ubicados?</h2>
+      <p class="section-description">Puedes consultar nuestra ubicación en el mapa.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="card border-0 shadow overflow-hidden mapa-card">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://maps.google.com/maps?q=13.7401283,-89.4282883&z=17&output=embed"
+              title="Ubicación de SAZÓN ARTESANA"
+              loading="lazy" allowfullscreen></iframe>
+          </div>
+          <div class="card-body text-center p-4">
+            <h3 class="h5">SAZÓN ARTESANA</h3>
+            <p>Consulta el mapa para ver la ubicación compartida.</p>
+            <a href="https://maps.app.goo.gl/aDp9oCenSUfxRmHt5"
+              target="_blank" rel="noopener noreferrer" class="btn btn-sazon">
+              <i class="bi bi-map me-2"></i>Abrir ubicación
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-sazon">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <a class="footer-brand d-inline-flex align-items-center gap-2" href="index.html">
+          <span class="logo-icon"><i class="bi bi-fire"></i></span>
+          <strong>SAZÓN ARTESANA</strong>
+        </a>
+        <p class="mt-3">Comida casera y sabores que nos recuerdan a casa.</p>
+        
+<div class="redes-sociales mt-3">
+    <a href="https://www.instagram.com/artesanal.sazon/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Visitar nuestro Instagram">
+        <i class="bi bi-instagram"></i>
+        Síguenos en Instagram
+    </a>
+</div>
+
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <h3>Explorar</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#menu">Nuestro menú</a></li>
+          <li><a href="#contacto">Pedidos</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="footer-divider">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0">© <span id="anioActual">2026</span> SAZÓN ARTESANA. Proyecto educativo.</p>
+      <a class="footer-arriba" href="#top">Volver arriba <i class="bi bi-arrow-up"></i></a>
+    </div>
+  </div>
+</footer>
+
+<button aria-label="Volver al inicio" class="volver-arriba" id="volverArriba" title="Volver arriba" type="button">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Traductor de la página -->
+<div aria-label="Traducir página" id="traductor-sazon">
+  <span aria-hidden="true" class="traductor-icono">🌐</span>
+  <div id="google_translate_element"></div>
+</div>
+
+<script async defer src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>

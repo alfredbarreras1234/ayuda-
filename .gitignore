@@ -1,0 +1,5 @@
+# Secretos y variables locales
+.env
+
+# Dependencias de Node (este proyecto no necesita paquetes adicionales)
+node_modules/
